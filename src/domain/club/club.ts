@@ -1,7 +1,7 @@
 import {ClubId} from "./clubId";
 import {ClubStatus} from "./clubStatus";
 import {DomainException} from "../domainException";
-import {StudentId} from "../student/StudentId";
+import {StudentId} from "../student/studentId";
 
 export class Club {
     private _clubId: ClubId;
