@@ -19,8 +19,8 @@ describe("ClubTest addStudent", () => {
 
         club.addStudent(studentId);
 
-        expect(() => {club.addStudent(studentId)}).toThrowError(DomainException);
-        expect(() => {club.addStudent(studentId)}).toThrowError("登録済みの生徒です");
+        expect(() => {club.addStudent(studentId)}).toThrow(DomainException);
+        expect(() => {club.addStudent(studentId)}).toThrow("登録済みの生徒です");
     });
 });
 
