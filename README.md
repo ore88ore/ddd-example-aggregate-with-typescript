@@ -12,3 +12,8 @@ src/
 ```
 npm install
 ```
+
+## テストの実行
+```
+npm test
+```
