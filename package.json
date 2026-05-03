@@ -18,6 +18,6 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "uuid": "^7.0.2"
+    "uuid": "^14.0.0"
   }
 }
